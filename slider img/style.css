@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.slides-box {
+  width: 75%;
+  height: 600px;
+  border: 1px solid black;
+  margin: 0 auto;
+  position: relative;
+  overflow-x: hidden;
+}
+.slides-box .slider {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: 1s;
+}
+
+.btn-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.btn-box .clickbtn {
+  width: 100px;
+  height: 50px;
+  margin-top: 20px;
+}/*# sourceMappingURL=style.css.map */
